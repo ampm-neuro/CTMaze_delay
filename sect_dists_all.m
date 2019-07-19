@@ -1,0 +1,19 @@
+accept_light = [0 1 2.1];
+
+[cell_counts, cell_type_counts, ~, standard_distances] = count_cells(8, 1, accept_light);
+[ot]= temp(standard_distances);
+ot_sd = standard_distances;
+num_ot_cells = cell_counts(1);
+num_ot_stmdiff_cells = cell_type_counts(3);
+[cell_counts, cell_type_counts, ~, standard_distances] = count_cells(8, 2, accept_light);
+[middle]= temp(standard_distances);
+mid_sd = standard_distances;
+num_mid_cells = cell_counts(1);
+num_mid_stmdiff_cells = cell_type_counts(3);
+[cell_counts, cell_type_counts, ~, standard_distances] = count_cells(8, 3, accept_light);
+[first]= temp(standard_distances);
+first_sd = standard_distances;
+num_first_cells = cell_counts(1);
+num_first_stmdiff_cells = cell_type_counts(3);
+all_sd = [first_sd; mid_sd; ot_sd];
+[all] = temp(all_sd);
