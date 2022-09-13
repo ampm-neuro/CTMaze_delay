@@ -1,5 +1,7 @@
 # Retrosplenial Cortical Neurons Encode Navigational Cues, Trajectories and Reward Locations During Goal Directed Navigation
 
-Code written to analyze data collected by Lindsey Vedder using rats on a light-cued version of the tmaze task
+Code written to analyze data collected by Lindsey Vedder using rats on a light-cued version of the tmaze task 
+
+DOI: 10.1093/cercor/bhw192
 
 Paper summary:The retrosplenial cortex (RSC) plays an important role in memory and spatial navigation. It shares functional similarities with the hippocampus, including the presence of place fields and lesion-induced impairments in spatial navigation, and the RSC is an important source of visual-spatial input to the hippocampus. Recently, the RSC has been the target of intense scrutiny among investigators of human memory and navigation. fMRI and lesion data suggest an RSC role in the ability to use landmarks to navigate to goal locations. However, no direct neurophysiological evidence of encoding navigational cues has been reported so the specific RSC contribution to spatial cognition has been uncertain. To examine this, we trained rats on a T-maze task in which the reward location was explicitly cued by a flashing light and we recorded RSC neurons as the rats learned. We found that RSC neurons rapidly encoded the light cue. Additionally, RSC neurons encoded the reward and its location, and they showed distinct firing patterns along the left and right trajectories to the goal. These responses may provide key information for goal-directed navigation, and the loss of these signals may underlie navigational impairments in subjects with RSC damage.
